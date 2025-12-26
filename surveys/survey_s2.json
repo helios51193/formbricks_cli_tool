@@ -1,0 +1,51 @@
+{
+  "survey": {
+    "name": "New Game Feature Feedback",
+    "description": "We want to hear your thoughts on the newly added feature in the game.",
+    "questions": [
+      {
+        "question_id": "q1",
+        "question_type": "rating",
+        "question_text": "How would you rate the new feature?",
+        "config": {
+          "rating": {
+            "max_value": 5,
+            "min_value": 1
+          }
+        },
+        "logic": {
+          "required": true,
+          "conditions": []
+        }
+      },
+      {
+        "question_id": "q2",
+        "question_type": "openText",
+        "question_text": "What is one thing you liked about the new update?",
+        "config": {
+          "text": {
+            "placholder": "Your response here..."
+          }
+        },
+        "logic": {
+          "required": true,
+          "conditions": []
+        }
+      },
+      {
+        "question_id": "q3",
+        "question_type": "openText",
+        "question_text": "What is one thing you would like to improve about the new update?",
+        "config": {
+          "text": {
+            "placholder": "Your response here..."
+          }
+        },
+        "logic": {
+          "required": true,
+          "conditions": []
+        }
+      }
+    ]
+  }
+}

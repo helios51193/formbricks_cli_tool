@@ -1,0 +1,10 @@
+{
+    "surveys":[{
+
+        "id":"s1",
+        "prompt":"- Ask user to give a rating between 1-5 \n - if rating of question less than of equal to 3, ask a textual response asking what should we improve \n - if the rating of the question is greater than 3, ask a textual response asking what did they like"
+    },{
+        "id":"s2",
+        "prompt":"- Ask the user to give rating between 1-5 to the newely added feature in the game  \n - Ask the use about one thing that they linked about the new update. the answer will be in text format \n - Ask the user about one they they would like to improve about the new update. the answer will be in text format"
+    }]
+}

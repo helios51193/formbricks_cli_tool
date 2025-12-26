@@ -1,0 +1,5 @@
+.env
+env
+cli.env
+formbricks/*
+templates/formbricks/formbricks.env

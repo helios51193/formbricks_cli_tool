@@ -1,0 +1,42 @@
+{
+    "survey": {
+        "name": "<name of the survey>",
+        "description": "<description of the survey>",
+        "questions": [
+            {
+                "question_id": "<id of the question, should be alphanumeric",
+                "question_type": "<type of question, can be rating|text| single_choice | multiple_choice",
+                "question_text": "actual question",
+                "config": {
+                    "rating": {
+                        "max_value": 5,
+                        "min_value": 0
+                    },
+                    "text": {
+                        "placholder": ""
+                    },
+                    "choice": {
+                        "choices ": [
+                            "A",
+                            "B",
+                            "C"
+                        ]
+                    }
+                },
+                "logic": {
+                    "required": "true | false",
+                    "conditions": [
+                        {
+                            "if": {
+                                "id": "<id of the question>",
+                                "value":"<value between min or max in case of rating",
+                                "operator": "in case of rating >,<,==,>=,<= | in case of text, submitted | in case of choice, selected ",
+                                "go_to":"<id of the question to go to>"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

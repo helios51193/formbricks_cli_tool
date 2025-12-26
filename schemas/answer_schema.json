@@ -1,0 +1,12 @@
+{
+    "user_001":{
+        "name":"<full name of the user>",
+        "email":"<email of the user>",
+        "answers":[
+            {
+                "question_id":"<id of the question>",
+                "value":"<answer of the question>"
+            }
+        ]
+    }
+}

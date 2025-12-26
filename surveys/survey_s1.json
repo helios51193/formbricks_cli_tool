@@ -1,0 +1,68 @@
+{
+  "survey": {
+    "name": "Customer Satisfaction Survey",
+    "description": "A survey to understand customer satisfaction levels.",
+    "questions": [
+      {
+        "question_id": "q1",
+        "question_type": "rating",
+        "question_text": "How would you rate your overall experience?",
+        "config": {
+          "rating": {
+            "max_value": 5,
+            "min_value": 1
+          }
+        },
+        "logic": {
+          "required": true,
+          "conditions": [
+            {
+              "if": {
+                "id": "q1",
+                "value": 3,
+                "operator": "<=",
+                "go_to": "q2"
+              }
+            },
+            {
+              "if": {
+                "id": "q1",
+                "value": 3,
+                "operator": ">",
+                "go_to": "q3"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "q2",
+        "question_type": "openText",
+        "question_text": "What should we improve?",
+        "config": {
+          "text": {
+            "placholder": "Your feedback here..."
+          }
+        },
+        "logic": {
+          "required": true,
+          "conditions": []
+        }
+      },
+      {
+        "question_id": "q3",
+        "question_type": "openText",
+        "question_text": "What did you like?",
+        "config": {
+          "text": {
+            "placholder": "Your feedback here..."
+          }
+        },
+        "logic": {
+          "required": true,
+          "conditions": []
+        }
+      }
+    ]
+  }
+}

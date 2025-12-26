@@ -1,0 +1,72 @@
+{
+  "user_001": {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "answers": [
+      {
+        "question_id": "q1",
+        "value": 4
+      },
+      {
+        "question_id": "q3",
+        "value": "I really appreciated the quick service and friendly staff."
+      }
+    ]
+  },
+  "user_002": {
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "answers": [
+      {
+        "question_id": "q1",
+        "value": 2
+      },
+      {
+        "question_id": "q2",
+        "value": "The waiting time was too long and the staff seemed overwhelmed."
+      }
+    ]
+  },
+  "user_003": {
+    "name": "Catherine Lee",
+    "email": "catherine.lee@example.com",
+    "answers": [
+      {
+        "question_id": "q1",
+        "value": 5
+      },
+      {
+        "question_id": "q3",
+        "value": "The atmosphere and the product quality were outstanding."
+      }
+    ]
+  },
+  "user_004": {
+    "name": "David Brown",
+    "email": "david.brown@example.com",
+    "answers": [
+      {
+        "question_id": "q1",
+        "value": 3
+      },
+      {
+        "question_id": "q2",
+        "value": "I think the menu could have more variety."
+      }
+    ]
+  },
+  "user_005": {
+    "name": "Emma Wilson",
+    "email": "emma.wilson@example.com",
+    "answers": [
+      {
+        "question_id": "q1",
+        "value": 1
+      },
+      {
+        "question_id": "q2",
+        "value": "Everything was disappointing, especially the customer service."
+      }
+    ]
+  }
+}
